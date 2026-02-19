@@ -21,5 +21,5 @@ from myapp.views import myview,mysuccess
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ad/',myview),
-    path('ads/',my),
+    path('ads/',mysuccess),
 ]
