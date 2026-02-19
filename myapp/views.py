@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 def myview(request):
-    return HttpResponse("welcome<br>django")
-def mysuccess(request):
-    return HttpResponse("successfull django")
+    return render(request,"myapp/index.html")
+
 # Create your views here.
